@@ -17,5 +17,31 @@
 		in collaboration and/or hiring for freelance opportunities. Additionally, this website will serve as a portfolio showcasing previous
 		work and accomplishments.</p>
 			<h2>Persona</h2>
+			<strong>Name:</strong> Emma Hoffman
+			<br>
+		 	<strong>Age: 32</strong>
+			<br>
+			<strong>Profession: Graphic Designer at Ping Identity, Denver Colorado</strong>
+			<br>
+			<strong>Hobbies:</strong> Enjoys yoga, traveling, maintaining her lifestyle and food blog.
+			<br>
+			<strong>Technology</strong> 2018 15 in MacBook Pro, iPhone 8
+			<br>
+			<strong>Frequency of Use:</strong> Very frequent user of technology, professionally, is adept in Adobe Creative Suite. Personally uses multiple social media networks and maintains a lifestyle blog.
+			<br>
+		    <strong>Frustrations and Needs:</strong> While Emma works with technology on a daily basis in her professional life, her blog has also become popular and potentially lucrative however
+			needs to be maintained by someone with adequate front end development and SEO experience. Emma does not have a large budget to spend on hiring a developer so is looking for a freelance developer
+			that is affordable but still effective She is overwhelmed by potential candidates she has seen on sites such as LinkedIn and Upwork.
+			<br>
+			<strong>Attitudes and Behavior:</strong> Because Emma has a background in graphic design she is extremely particular about those she chooses to work with. Finding someone who is easy to work with,
+			and who can understand and interpret her "style and desired aesthetic" is important. Because she does not have much time to look for candidates since this is a personal project, she wants to quickly sift through personal
+			portfolios.
+			<br>
+			<strong>Goals</strong>
+			Emma's overall goal is to find an affordable web developer to optimize her website and assist with SEO. Emma is working on a tight budget and but still wants a developer who can is creative and can create
+			her vision. She is using personal portfolio websites to get a feel for individual style and experience.
+			<br>
+			<strong>User Story</strong>
+			As a user, I need to view personal portfolio websites to determine whether I should pursue hiring this person for a freelance web development job. 
 	</body>
 </html>
