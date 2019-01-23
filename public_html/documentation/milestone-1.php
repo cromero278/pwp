@@ -16,12 +16,12 @@
 		<p>The main goal of this website it to attract professionals in the tech and web development community interested
 		in collaboration and/or hiring for freelance opportunities. Additionally, this website will serve as a portfolio showcasing previous
 		work and accomplishments.</p>
-			<h2>Persona</h2>
+			<h2>Persona</h2> <img src="emma-hoffman.jpg" alt="Emma Hoffman Photo" style="width:500px;height:300px;"><br>
 			<strong>Name:</strong> Emma Hoffman
 			<br>
 		 	<strong>Age: 32</strong>
 			<br>
-			<strong>Profession: Graphic Designer at Ping Identity, Denver Colorado</strong>
+			<strong>Profession:</strong> Graphic Designer at Ping Identity, Denver Colorado
 			<br>
 			<strong>Hobbies:</strong> Enjoys yoga, traveling, maintaining her lifestyle and food blog.
 			<br>
