@@ -6,7 +6,7 @@
 	</head>
 	<body>
 			<h1>PWP Milestone 1</h1>
-			<h2>Purpose, Audience and Goal</h2>
+			<h2>Purpose, Audience, and Goal</h2>
 			<h3>Purpose</h3>
 		<p>This website will be a portfolio focusing on digital media and front-end web development.</p>
 			<h3>Audience</h3>
@@ -42,6 +42,6 @@
 			her vision. She is using personal portfolio websites to get a feel for individual style and experience.
 			<br>
 			<strong>User Story</strong>
-			As a user, I need to view personal portfolio websites to determine whether I should pursue hiring this person for a freelance web development job. 
+			As a user, I need to view personal portfolio websites to determine whether I should pursue hiring this person for a freelance web development job.  <br>
 	</body>
 </html>
