@@ -8,14 +8,14 @@
 			<h1>PWP Milestone 1</h1>
 			<h2>Purpose, Audience, and Goal</h2>
 			<h3>Purpose</h3>
-		<p>This website will be a portfolio focusing on digital media and front-end web development.</p>
+			<p>This website will be a portfolio focusing on digital media and front-end web development.</p>
 			<h3>Audience</h3>
-		<p>This website is designed to attract the interest of tech and digital media professionals nationwide, this is including
+			<p>This website is designed to attract the interest of tech and digital media professionals nationwide, this is including
 			but not limited to hiring managers, small business owners, and recruiters. </p>
 			<h3>Goal</h3>
-		<p>The main goal of this website it to attract professionals in the tech and web development community interested
-		in collaboration and/or hiring for freelance opportunities. Additionally, this website will serve as a portfolio showcasing previous
-		work and accomplishments.</p>
+			<p>The main goal of this website it to attract professionals in the tech and web development community interested
+				in collaboration and/or hiring for freelance opportunities. Additionally, this website will serve as a portfolio showcasing previous
+				work and accomplishments.</p>
 			<h2>Persona</h2> <img src="emma-hoffman.jpg" alt="Emma Hoffman Photo" style="width:500px;height:300px;"><br>
 			<strong>Name:</strong> Emma Hoffman
 			<br>
@@ -29,7 +29,7 @@
 			<br>
 			<strong>Frequency of Use:</strong> Very frequent user of technology, professionally, is adept in Adobe Creative Suite. Personally uses multiple social media networks and maintains a lifestyle blog.
 			<br>
-		    <strong>Frustrations and Needs:</strong> While Emma works with technology on a daily basis in her professional life, her blog has also become popular and potentially lucrative however
+			<strong>Frustrations and Needs:</strong> While Emma works with technology on a daily basis in her professional life, her blog has also become popular and potentially lucrative however
 			needs to be maintained by someone with adequate front end development and SEO experience. Emma does not have a large budget to spend on hiring a developer so is looking for a freelance developer
 			that is affordable but still effective She is overwhelmed by potential candidates she has seen on sites such as LinkedIn and Upwork.
 			<br>
