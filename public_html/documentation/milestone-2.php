@@ -9,23 +9,26 @@
 		<p>
 			<ul>
 				<li>
-				Intro: My name and a few words about who I am as a professional. This text will lay over a background image of something
+				<strong>Intro:</strong> My name and a few words about who I am as a professional. This text will lay over a background image of something
 				tech/design related.
 				</li>
 				<li>
-				About me: This section will include several paragraph about my experience in web development and multimedia. Additionally
+				<strong>About me:</strong> This section will include several paragraph about my experience in web development and multimedia. Additionally
 				this section will include a quick blurb about my hobbies outside of work. There will be a headshot/professional photo
 					aligned left in this section.
 				</li>
 				<li>
-				Portfolio: This section will include several examples of projects I have completed in the multimedia and/or
+				<strong>Portfolio:</strong> This section will include several examples of projects I have completed in the multimedia and/or
 				web development. The section will include photos from the project and under each photo there will be a brief description
 				of the project.
 				</li>
 				<li>
-				Contact:
+				<strong>Contact:</strong> This section will include a secure contact form. It will include forms for first and last name, email address
+				and a form to input additional comments or questions.
 				</li>
 			</ul>
 		<h1>Wireframes</h1>
-
+		<p>These wireframes reflect a mobile-first, one page website, made using Balsamiq.</p>
+		<img src="desktop-wireframe.png" alt="cassandra romero desktop wireframe" style="height: 600px">
+		<img src="mobile-wireframe.png" alt="cassandra romero mobile wireframe" style="height:600px">
 	</body>
