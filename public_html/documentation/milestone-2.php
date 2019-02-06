@@ -5,7 +5,8 @@
 		<title>Milestone 2 - Personal Website Project</title>
 	</head>
 	<body>
-		<h1>Content Strategy</h1>
+		<h1>Milestone 2</h1>
+		<h2>Content Strategy</h2>
 		<p>
 			<ul>
 				<li>
@@ -27,7 +28,7 @@
 				and a form to input additional comments or questions.
 				</li>
 			</ul>
-		<h1>Wireframes</h1>
+		<h2>Wireframes</h2>
 		<p>These wireframes reflect a mobile-first, one page website, made using Balsamiq.</p>
 		<img src="desktop-wireframe.png" alt="cassandra romero desktop wireframe" style="height: 600px">
 		<img src="mobile-wireframe.png" alt="cassandra romero mobile wireframe" style="height:600px">
