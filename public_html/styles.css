@@ -1,3 +1,7 @@
+body {
+	font-family:'Quicksand', sans-serif !important;
+}
+
 .welcome img {
 	width: 100%;
 }
@@ -16,4 +20,8 @@
 	width: 275px;
 	height: 275px;
 	margin-bottom: 1rem;
+}
+
+.portfolio {
+	padding: 2rem;
 }
