@@ -1,0 +1,19 @@
+.welcome img {
+	width: 100%;
+}
+
+.top-left {
+	position: absolute;
+	top: 8px;
+	left: 16px;
+}
+
+.about-me {
+	padding: 2rem;
+}
+
+.about-me img {
+	width: 275px;
+	height: 275px;
+	margin-bottom: 1rem;
+}
