@@ -2,6 +2,10 @@ body {
 	font-family:'Quicksand', sans-serif !important;
 }
 
+head {
+	background-color: black;
+}
+
 .welcome img {
 	width: 100%;
 }
