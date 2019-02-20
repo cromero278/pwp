@@ -1,20 +1,17 @@
 body {
-	font-family:'Quicksand', sans-serif !important;
+	font-family: 'Playfair Display', serif !important;
 }
+.welcome {
+	position: relative;
 
-head {
-	background-color: black;
 }
 
 .welcome img {
+	left: 0;
+	top: 0;
 	width: 100%;
 }
 
-.top-left {
-	position: absolute;
-	top: 8px;
-	left: 16px;
-}
 
 .about-me {
 	padding: 2rem;
@@ -26,6 +23,10 @@ head {
 	margin-bottom: 1rem;
 }
 
+.about-me h2 {
+}
+
 .portfolio {
 	padding: 2rem;
+	background-color: powderblue;
 }
