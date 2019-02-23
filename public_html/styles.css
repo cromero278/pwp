@@ -1,15 +1,26 @@
+
 body {
 	font-family: 'Playfair Display', serif !important;
 }
+
 .welcome {
-	position: relative;
+	background: url("beverage-computer-flower-948888.jpg");
+	background-size: cover;
+	left: 0;
+	top: 0;
+	height: 400px;
+	width: 100%;
 
 }
 
-.welcome img {
-	left: 0;
-	top: 0;
-	width: 100%;
+.welcome h2 {
+	padding-top: 1rem;
+	margin-left: 2rem;
+}
+
+.welcome p {
+	font-size: 18px;
+	margin-left: 2rem;
 }
 
 
@@ -18,8 +29,8 @@ body {
 }
 
 .about-me img {
-	width: 275px;
-	height: 275px;
+	width: 250px;
+	height: 250px;
 	margin-bottom: 1rem;
 }
 
@@ -28,5 +39,9 @@ body {
 
 .portfolio {
 	padding: 2rem;
-	background-color: powderblue;
+	background-color: aliceblue;
+}
+
+.footer {
+	color: grey !important;
 }
