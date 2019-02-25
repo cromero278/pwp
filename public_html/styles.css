@@ -13,14 +13,14 @@ body {
 
 }
 
-.welcome h2 {
-	padding-top: 1rem;
+.welcome h1 {
+	padding-top: .3rem;
 	margin-left: 2rem;
 }
 
 .welcome p {
-	font-size: 18px;
-	margin-left: 2rem;
+	font-size: 20px;
+	margin-left: 2.2rem;
 }
 
 
@@ -34,8 +34,6 @@ body {
 	margin-bottom: 1rem;
 }
 
-.about-me h2 {
-}
 
 .portfolio {
 	padding: 2rem;
@@ -48,4 +46,9 @@ body {
 
 .footer {
 	color: grey !important;
+}
+
+.fab {
+	padding: .3rem;
+	color: gray;
 }

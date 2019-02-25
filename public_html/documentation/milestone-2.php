@@ -26,6 +26,7 @@
 			<strong>Contact:</strong> This section will include a secure contact form. It will include forms for first and last name, email address
 			and a form to input additional comments or questions.
 			</li>
+
 		</ul>
 		<h2>Wireframes</h2>
 		<p>These wireframes reflect a mobile-first, one page website, made using Balsamiq.</p>
