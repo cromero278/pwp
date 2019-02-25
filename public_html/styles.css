@@ -42,6 +42,10 @@ body {
 	background-color: aliceblue;
 }
 
+.contact h2{
+	padding: 2rem;
+}
+
 .footer {
 	color: grey !important;
 }
