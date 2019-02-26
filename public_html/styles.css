@@ -6,8 +6,7 @@ body {
 .welcome {
 	background: url("beverage-computer-flower-948888.jpg");
 	background-size: cover;
-	left: 0;
-	top: 0;
+	margin-bottom: .5rem;
 	height: 400px;
 	width: 100%;
 
@@ -55,6 +54,6 @@ footer p {
 }
 
 .fab {
-	display: inline-block;
+	padding: .3rem;
 	color: gray;
 }
