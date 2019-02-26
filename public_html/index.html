@@ -112,7 +112,7 @@
 			<div class="contact">
 				<h2>Contact Me</h2>
 				<div class="container">
-					<form id="contactform" action="mailer.php" method="post">
+					<form id="contactform" action="php/mailer.php" method="post">
 						<div class="form-group">
 							<label for="nameId">Name</label>
 							<input type="email" class="form-control" id="nameId" name="name" placeholder="Your Name">
@@ -125,6 +125,7 @@
 							<label for="textAreaId">Leave A Note</label>
 							<textarea class="form-control" id="textAreaId" name="text" rows="3"></textarea>
 						</div>
+						`<div class="g-recaptcha" data-sitekey="6LcuEZQUAAAAAKKKDAKCT6gquungvbhD9ceoQ8Hx"></div>`
 						<button type="button" class="btn btn-light btn-outline-secondary">Submit</button>
 					</form>
 					<div id="output-area"></div>
