@@ -52,17 +52,18 @@ $(document).ready(function(){
 				maxLength: "Message 1000 characters max",
 			}
 		},
-
 		submitHandler: function(form) {
 			$("#contact-form").ajaxSubmit({
-				type:"POST",
-				url: $("#contact-form").attr("action"),
-
+				type: "POST",
+				url:$("#contact-form").attr("action"),
 				success: function(ajaxOutput) {
-					$("#output-area").css("display", "");
+					// clear the output area's formatting
+					$("#output-area").css("display","");
 
-					$("#output-area").html(ajaxOutput);
+					// write the server's reply to the output area
+					$("#output").html(ajaxOutput);
 
+					// reset the form if it was successful
 					if($(".alert-success").length >= 1) {
 						$("#contact-form")[0].reset();
 					}
