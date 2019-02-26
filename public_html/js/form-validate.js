@@ -1,5 +1,4 @@
-$(document).ready(function(){
-
+$(document).ready(function() {
 	/**
 	 * jQuery Validate Function
 	 *
@@ -13,29 +12,30 @@ $(document).ready(function(){
 	 * @author Rochelle Lewis <rlewis37@cnm.edu>
 	 **/
 
-	/* begin validate function here */
-	$("#contact-form").validate({
-
-		debug:true,
-		errorClass: "alert alert-danger",
-		errorLabelContainer: "#output-area",
-		errorElement: "div",
-
-		rules: {
+	$("#contact-form").validate(
+		{
+			debug: true,
+			errorClass: "alert alert-danger",
+			errorLabelContainer: "#output-area",
+			errorElement: "div",
+			// rules here define what is good or bad input
+			// each rule starts with the form input element's NAME attribute
+			rules: {
 			name: {
-			required: true,
+			required: true
 			},
 			email: {
 				email: true,
-				required: true,
+				required: true
 			},
 			text: {
 				required: true,
-				maxLength: 1000,
+				maxlength: 2000,
+				minlength: 8
 			},
 			subject: {
 				required: false,
-				maxLength: 64,
+				maxlength: 64
 			}
 		},
 
@@ -45,30 +45,38 @@ $(document).ready(function(){
 			},
 			email: {
 				email: "Please enter a valid email address",
-				required: "Please enter a valid email address",
+				required: "Please enter a valid email address"
 			},
 			text: {
 				required: "Please enter a message",
-				maxLength: "Message 1000 characters max",
+				maxlength: "Message is too long, 2000 characters max",
+				minlength: "Message is too short"
+			},
+			subject: {
+				maxLength: "Subject too long"
 			}
 		},
-		submitHandler: function(form) {
-			$("#contact-form").ajaxSubmit({
-				type: "POST",
-				url:$("#contact-form").attr("action"),
-				success: function(ajaxOutput) {
-					// clear the output area's formatting
-					$("#output-area").css("display","");
+			submitHandler: function(form) {
+				$("#contact-form").ajaxSubmit({
+					type: "POST",
+					url:$("#contact-form").attr("action"),
+					success: function(ajaxOutput) {
+						// clear the output area's formatting
+						$("#output-area").css("display","");
 
-					// write the server's reply to the output area
-					$("#output").html(ajaxOutput);
+						// write the server's reply to the output area
+						$("#output-area").html(ajaxOutput);
 
-					// reset the form if it was successful
-					if($(".alert-success").length >= 1) {
-						$("#contact-form")[0].reset();
+						// reset the form if it was successful
+						if($(".alert-success").length >= 1) {
+							$("#contact-form")[0].reset();
+						}
 					}
-				}
-			})
-		}
+				})
+
+			}
+
+
 		});
-	});
+
+});
