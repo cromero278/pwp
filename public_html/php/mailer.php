@@ -59,5 +59,5 @@ try {
 	// report a successful send!
 	echo "<div class=\"alert alert-success\" role=\"alert\">Success!</div>";
 } catch(\Exception $exception) {
-	echo "<div class=\"alert alert-danger\" role=\"alert\"><strong>Oh no!</strong>Your email was unable to send" . $exception->getMessage() . "</div>";
+	echo "<div class=\"alert alert-danger\" role=\"alert\"><strong>Oh no!</strong>Your email was unable to send: " . $exception->getMessage() . "</div>";
 }
