@@ -25,6 +25,7 @@ body {
 
 
 .about-me {
+	background-color: aliceblue;
 	padding: 2rem;
 }
 
@@ -37,15 +38,20 @@ body {
 
 .portfolio {
 	padding: 2rem;
+}
+
+.contact{
 	background-color: aliceblue;
+	padding-bottom: 2rem;
 }
 
 .contact h2{
 	padding: 2rem;
 }
 
-.footer {
-	color: grey !important;
+
+footer p {
+	margin-top: .6rem;
 }
 
 .fab {
