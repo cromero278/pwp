@@ -4,7 +4,6 @@
 			<meta charset="UTF-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-			<link rel="script" href="script.js">
 			<link rel="stylesheet" type="text/css" href="styles.css">
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
@@ -44,7 +43,6 @@
 				  crossorigin="anonymous"></script>
 
 
-
 		<!-- form validate js -->
 		<script src="js/form-validate.js"></script>
 
@@ -53,7 +51,7 @@
 
 
 	<body>
-		<header>
+		<header id="header">
 			<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -88,10 +86,10 @@
 			<div class="container-fluid">
 				<div class="row">
 						<div class="col">
-							<img class="mx-auto d-block rounded-circle img-fluid" src="cassandra-romero.jpg" alt="cassandra romero">
+							<img class="mx-auto d-block rounded-circle img-fluid" src="headshot.png" alt="cassandra romero">
 						</div>
 						<div class="col-lg-8 col-xl-9">
-							<p class="text-md-left">My name is Cassandra, and I’m a web developer and digital designer based in Albuquerque, New Mexico. I spend my days designing websites and creating various kinds of content for e-commerce brands. I love learning new web technologies and currently enjoy playing around with Javascript and CSS animations. My skills include:
+							<p class="text-md-left">My name is Cassandra, and I’m a web developer and digital designer based in Albuquerque, New Mexico. I spend my days designing websites and creating various kinds of content for e-commerce brands. I love learning different web technologies and currently enjoy playing around with Javascript and CSS animations. My skills include:
 								<br><br>
 								HTML5, CSS,
 								Wordpress,
@@ -102,10 +100,10 @@
 								Javascript,
 								Adobe Photoshop & Illustrator
 								<br><br>
-								When I’m not making things on 	the web, I enjoy all things fitness, and spending time outdoors in my lovely home state of New Mexico.
+								When I’m not creating things on 	the web, I enjoy all things fitness, and spending time outdoors in my lovely home state of New Mexico.
 								<br><br>
 								Want to collaborate? Contact me!
-								</div>
+						</div>
 				</div>
 			</div>
 		</div>
@@ -117,8 +115,12 @@
 					<div class="col-lg-4">
 						<div class="card border-0 text-center">
 							<div class="card-body">
-								<img class="card-image-top rounded-circle" src="label-design.jpg" alt="PortfolioImage1">
-								<p class="card text bg-light">Toy mouse squeak roll over. Cat slap dog in face eat prawns daintily with a claw then lick paws clean wash down prawns</p>
+								<a href="https://www.solsticesupplements.com/">
+									<img class="card-image-top rounded-circle" src="label-design.jpg" alt="PortfolioImage1">
+								</a>
+								<p class="card text bg-light">Label design and editing for Solstice Supplements <br><br>
+									Created using Adobe Illustrator
+								</p>
 							</div>
 						</div>
 					</div>
@@ -126,15 +128,17 @@
 						<div class="card border-0 text-center">
 							<div class="card-body">
 								<img class="card-image-top rounded-circle border border-secondary" src="wireframe%20trails.JPG" alt="PortfolioImage2">
-								<p class="card text bg-light">Toy mouse squeak roll over. Cat slap dog in face eat prawns daintily with a claw then lick paws clean wash down prawns</p>
+								<p class="card text bg-light">Web Development for ABQ Trails <br><br> Created using mySQL, PHP, back-end; Angular and Bootstrap Framework front-end</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-4">
 						<div class="card border-0 text-center">
 							<div class="card-body">
-								<img class="card-image-top rounded-circle border border-secondary" src="pure.JPG" alt="PortfolioImage3">
-								<p class="card text bg-light">Toy mouse squeak roll over. Cat slap dog in face eat prawns daintily with a claw then lick paws clean wash down prawns</p>
+								<a href="https://www.purenootropics.net/">
+									<img class="card-image-top rounded-circle border border-secondary" src="pure.JPG" alt="PortfolioImage3">
+								</a>
+									<p class="card text bg-light">Content creation and implementation for Pure Nootropics <br><br> Managed on WordPress CMS</p>
 							</div>
 						</div>
 					</div>
@@ -148,7 +152,7 @@
 					<form id="contact-form" action="php/mailer.php" method="post">
 						<div class="form-group">
 							<label for="name">Name</label>
-							<input type="name" class="form-control" id="name" name="name" placeholder="Your Name">
+							<input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
 						</div>
 						<div class="form-group">
 							<label for="email">Email address</label>
@@ -167,18 +171,15 @@
 					<div id="output-area"></div>
 				</div>
 			</div>
-			</div>
-		</div>
-
 
 
 		<footer>
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-12 d-flex justify-content-center col-md-7 justify-content-md-start">
+					<div class="col-12 d-flex justify -content-center col-md-7 justify-content-md-start">
 						<!--<ul class="nav">-->
 							<!--<li class="nav-item">-->
-								<a class="nav-link text-secondary" href="#navbarNav">Home</a>
+								<a class="nav-link text-secondary" href="#header">Home</a>
 							<!--</li>-->
 							<!--<li class="nav-item">-->
 								<a class="nav-link text-secondary" href="#about-me">About</a>
@@ -192,7 +193,7 @@
 						<!--</ul>-->
 					</div>
 					<div class="col-12 d-flex justify-content-center col-md-2 justify-content-md-end">
-						<a href="https://github.com/cromero278">
+						<a href="https://www.linkedin.com/in/cassandra-romero-253120a0/">
 							<i class="fab fa-linkedin-in fa-2x"></i>
 						</a>
 						<a href="https://github.com/cromero278">
